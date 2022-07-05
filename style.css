@@ -112,3 +112,47 @@ h1 {
     font-size: 12px;
     margin: 1%;
 }
+
+.counter-people {
+    width: 80%;
+    display: flex;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    text-align: left;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+
+.counter-people div {
+    padding: 4%;
+}
+
+.counter-people h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.peraCount {
+    margin: 0;
+}
+
+span {
+    color: orange;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h3 {
+    color: gray;
+}
