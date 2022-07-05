@@ -1,8 +1,15 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: opx;
 }
 
-section {
+.Top-section {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.middle-section {
     display: flex;
     padding-bottom: 30px;
 }
@@ -44,4 +51,64 @@ h1 {
 .midlle-width {
     width: 50%;
     padding-left: 22%;
+}
+
+.recipie {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.recipie h1 {
+    font-size: 2.3rem;
+    margin-bottom: 2%;
+}
+
+.recipie-content {
+    text-align: center;
+    width: 62%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.card-1 {
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 20px;
+    padding: 3%;
+    margin-right: 5%;
+}
+
+.card-1 img {
+    width: 100%;
+    border-radius: 20px;
+    height: 40vh;
+}
+
+.card-2 {
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 20px;
+    padding: 3%;
+    margin-left: 5%;
+}
+
+.card-2 img {
+    width: 100%;
+    border-radius: 20px;
+    height: 40vh;
+}
+
+.card h5 {
+    margin: 1%;
+    font-size: 1.4rem;
+}
+
+.card p {
+    font-size: 12px;
+    margin: 1%;
 }
