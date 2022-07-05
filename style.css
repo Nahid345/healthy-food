@@ -4,6 +4,7 @@ body {
 
 section {
     display: flex;
+    padding-bottom: 30px;
 }
 
 h1 {
@@ -23,10 +24,6 @@ h1 {
     padding-top: 30px;
 }
 
-.half-width img {
-    width: 20%;
-}
-
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
@@ -35,4 +32,16 @@ h1 {
     padding: 15px 35px;
     padding-top: 10px;
     border-radius: 25px;
+}
+
+.top-banner {
+    background-image: url(images/shapes/banner.png);
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.midlle-width {
+    width: 50%;
+    padding-left: 22%;
 }
